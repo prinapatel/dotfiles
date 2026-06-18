@@ -1,0 +1,25 @@
+# =============================================================================
+# GHOSTTY CONFIG
+# full reference: https://ghostty.org/docs/config
+# =============================================================================
+
+# force light mode regardless of system appearance
+theme = Rose Pine Dawn
+
+# font
+font-family = JetBrains Mono
+font-size = 13
+
+# window
+background-opacity = 1.0
+window-padding-x = 12
+window-padding-y = 12
+window-decoration = true
+
+# cursor
+cursor-style = bar
+cursor-style-blink = false
+
+# behaviour
+copy-on-select = false
+mouse-hide-while-typing = true
