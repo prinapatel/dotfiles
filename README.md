@@ -12,6 +12,12 @@ Personal dev environment. One repo, one command, identical setup on any Mac.
 | tmux | Terminal multiplexer — prefix Ctrl+a, rose-pine dawn status bar |
 | git | Version control — aliases, conventions (configured per machine) |
 
+## Assumptions
+
+- All dev work lives in `~/Code/`
+- This repo lives at `~/Code/dotfiles/`
+- Configs are symlinked from there into `$HOME`
+
 ## Setting up a new machine
 
 **1. Clone the repo**
