@@ -29,7 +29,7 @@ This installs Homebrew, all packages, uv, symlinks every config into place, and 
 **3. Set your git identity**
 ```bash
 git config --global user.name "Your Name"
-git config --global user.email "you@tunicpay.com"
+git config --global user.email "you@wherever.com"
 ```
 
 That's it.
