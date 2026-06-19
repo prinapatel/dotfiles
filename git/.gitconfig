@@ -1,0 +1,47 @@
+# =============================================================================
+# GIT CONFIG
+# identity is set per machine — update [user] section on each new machine
+# =============================================================================
+
+[user]
+    name  = Prina Patel
+    email = prina83@gmail.com
+
+[core]
+    editor     = nvim          # open nvim for commit messages
+    autocrlf   = input         # normalise line endings on commit
+
+[init]
+    defaultBranch = main       # use main not master for new repos
+
+[push]
+    autoSetupRemote = true     # automatically set upstream on first push
+
+[pull]
+    rebase = false             # standard merge on pull
+
+# =============================================================================
+# BRANCH CONVENTIONS
+# feat/, fix/, chore/, refactor/, exp/ prefixes
+# lowercase kebab-case only
+# =============================================================================
+
+[branch]
+    sort = -committerdate      # show most recently active branches first
+
+# =============================================================================
+# ALIASES
+# usage: git <alias>
+# =============================================================================
+
+[alias]
+    st   = status
+    lg   = log --oneline -10                          # last 10 commits, compact
+    lga  = log --oneline --graph --all                # full branch graph
+    d    = diff
+    ds   = diff --staged                              # diff of staged changes
+    undo = reset HEAD~1 --mixed                       # undo last commit, keep changes
+    aliases = config --get-regexp alias               # list all aliases
+
+[color]
+    ui = auto
